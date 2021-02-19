@@ -1,7 +1,3 @@
-
-<%= form_for(@cocktail) do |f| %>
-  <%= f.label :name %>
-  <%= f.text_field :name %>
-
-  <%= f.submit %>
-<% end %>
+<%# title with name of cocktail %>
+<h4><%= @cocktail.name %></h4>
+<%= link_to "Add new dose", new_cocktail_dose_path(@cocktail) %>

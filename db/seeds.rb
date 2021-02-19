@@ -9,3 +9,7 @@
 Cocktail.create(name: 'Long Island Iced Tea')
 Cocktail.create(name: 'Mojito')
 Cocktail.create(name: 'Pina Colada')
+
+Ingredient.create(name: 'lemon')
+Ingredient.create(name: 'ice')
+Ingredient.create(name: 'mint leaves')
